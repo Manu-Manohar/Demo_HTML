@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="container">
+        <div class="apply-box">
+            <h1>Application Form</h1>
+            <form action="">
+                <div class="form-container">
+                    <div class="form-control">
+                        <label for="First_name">First Name</label>
+                        <input type="text" name="First_name" id="First_name" required placeholder="Enter First Name">
+                    </div>
+                    <div class="form-control">
+                        <label for="Last_name">Last Name</label>
+                        <input type="text" name="Last_name" id="Last_name"required placeholder="Enter Last Name">
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email Id</label>
+                        <input type="email" name="email" id="email" placeholder="Exyz@gmail.com">
+                    </div>
+                    <div class="form-control">
+                        <label for="jr">Job Role</label>
+                            <select name="jr" id="jr">
+                                <option value="dm">Select Job Role</option>
+                                <option value="SD">Software Developer</option>
+                                <option value="FD">Front-End Developer</option>
+                                <option value="JD">Java Developer</option>
+                                <option value="PD">Python Developer</option>
+                                <option value="UD">UI/UX Designer</option>
+                                <option value="TS">Technical Support</option>
+                                <option value="AD">Associate Developer</option>
+                                <option value="DE">Data Engineer</option>
+                                <option value="DA">Data Analyst</option>    
+                            </select>
+                    </div>
+                    <div class="form-control">
+                        <label>contact No</label>
+                        <input type="number" name="number" id="number" placeholder="Enter Contact No">
+                    </div>
+                  <!--  <div class="form-control">
+                        <label for="gender">Gender</label>
+                        <input type="radio" name="gender" id="male">
+                        <label for="male"> Male</label>
+                        <input type="radio" name="gender" id="female">
+                        <label for="female"> Female</label>
+                    </div>-->
+                    <div class="form-control">
+                        <label>Address</label>
+                        <textarea name="Address" id="Address" cols="30" rows="10">Enter Full Address</textarea>
+                    </div>
+                    <div class="form-control">
+                        <label>City</label>
+                        <input type="text" name="City" id="City">
+                    </div>
+                    <div class="form-control">
+                        <label>PinCode</label>
+                        <input type="number" name="pc" id="pc" >
+                    </div>
+                    <div class="form-control">
+                        <label for="date">Date</label>
+                        <input type="date" name="date" id="date">
+                    </div>
+                    <div class="form-control">
+                        <label for="file">Upload CV</label>
+                        <input type="file" name="file" id="file">
+                    </div>
+                    <div class="button-container">
+                        <button type="button"><strong>APPLY</strong></button>
+                    </div> 
+                </div>   
+             </form>
+        </div>
+    </div>
+</body>
+</html>
