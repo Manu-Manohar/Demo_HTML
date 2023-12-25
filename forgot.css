@@ -1,0 +1,29 @@
+
+.form-container{
+    display: grid;
+    gap:10px;
+    max-width: max-content;
+}
+.form-control{
+    display:flex;
+    flex-direction:column;
+    row-gap: 8px; 
+}
+label{
+    font: 15px;
+}
+input{
+    border: 0.5px solid;
+    border-radius: 5px;
+    font-family: monospace;
+    padding: 8px;
+    margin-bottom: 2px;
+}
+button{
+    color: red;
+    font-style:20px;
+    text-shadow:2px 2px yellow;
+    font-family:monospace;
+    font-size: 25px;
+    font-weight:bolder;
+ }

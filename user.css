@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-container{
+    display: grid;
+    margin:0px auto;
+    gap:18px;
+    padding: 2px 4px;
+    max-width: 200px;
+    
+}
+.form-control{
+    display:flex;
+    flex-direction:column;
+    row-gap: 8px;
+}
+label{
+    font: 10px;
+}
+input{
+    border: 0.5px solid;
+    border-radius: 5px;
+    font-family: monospace;
+    padding: 10px 100px;
+    border: 1px solid;
+    text-align: start;
+}
+button{
+    color: red;
+    padding: 5px;
+    font-style:20px;
+    text-shadow:2px 2px yellow;
+    font-family:monospace;
+    font-size: 25px;
+    font-weight:bolder;
+ }
+ .form-control:placeholder{
+    text-align: center;
+ }

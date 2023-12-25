@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New User?</title>
+    <link rel="stylesheet" href="user.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Register Form</h2>
+        <div class="form-control">
+            <label for="First_name">First Name<span>*</span></label>
+            <input type="text" name="First_name" id="First_name" required placeholder="Enter First Name" maxlength="15">
+        </div>
+        <div class="form-control">
+            <label for="Last_name">Last Name<span>*</span></label>
+            <input type="text" name="Last_name" id="Last_name"required placeholder="Enter Last Name" maxlength="15">
+        </div>
+        <div class="form-control">
+            <label for="email">Email Id<span>*</span></label>
+            <input type="email" name="email" id="email" placeholder="xyz@gmail.com" required pattern="[a-z0-9]{50}">
+        </div>
+        <div class="form-control">
+            <label for="email">Re-Email Id<span>*</span></label>
+            <input type="email" name="email" id="email" placeholder="xyz@gmail.com" required pattern="[a-z0-9]{50}">
+        </div>
+        <div class="form-control">
+            <label for="password">Password <span>*</span></label>
+            <input type="password">
+        </div>
+        <div class="form-control">
+            <label for="password">Re-Password <span>*</span></label>
+            <input type="password">
+        </div>   
+        <div class="form-control">
+            <button type="button">Register</button>
+        </div>  
+    </div>
+</body>
+</html>

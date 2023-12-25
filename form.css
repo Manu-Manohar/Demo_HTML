@@ -3,13 +3,15 @@
     padding: 0px;
     box-sizing: border-box;
 }
+h2{
+   text-align: center;
+}
 body{
    background-color: ;
 }
 .container{
     max-width: 900px;
     margin:0px auto;
-    background:rgba(130, 118, 147, 0.769);
 }
 .apply-box{
  background-color: lightcoral;
@@ -18,7 +20,7 @@ body{
  margin: 0px auto;
  margin-top: 50px;
  border: 1px solid rgb(255, 255, 255,o.3);
- box-shadow: 0 4px rgb(255, 255, 255,blue);
+ box-shadow:2px 2px 30px blue;
  border-radius: 5%;
  color:black;
  }
