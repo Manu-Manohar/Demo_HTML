@@ -1,0 +1,10 @@
+table,th,td,tr{
+    border: 1px solid black;
+    text-align: center;
+}
+th,tr,td{
+    padding-left: 4px;
+    padding-top: 8px;
+    padding-bottom: 4px;
+    padding-right: 8px;
+}
