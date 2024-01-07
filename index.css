@@ -8,13 +8,23 @@ table,th,td,caption{
     height: auto;
 }
 th,td{
-    padding: 4px 6px; 
+    width: 15%;
+    padding: 10px 12px; 
     text-align: center;
     font-size: 25px;
     border-radius: 3%;  
+    font-family: ;
 }
 caption{
     font-size: 1.5rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
+}
+tr:nth-child(even)
+{
+    background-color:silver;
+}
+tr:nth-child(odd)
+{
+    background-color:whitespace;
 }
